@@ -24,3 +24,15 @@ dev = [
 [project.scripts]
 VD-games = "VD_games.scripts.VD_games:main"
 VD-even = "VD_games.scripts.VD_even:main"
+
+VD-gcd = "VD_games.scripts.VD_gcd:main"
+
+[project]
+name = "vd_games"
+version = "0.1.0"
+description = "VD Games project"
+
+[project.scripts]
+vd_progression = "scripts.vd_progression:main"
+vd_prime = "scripts.vd_prime:main"
+
